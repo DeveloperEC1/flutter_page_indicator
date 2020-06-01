@@ -33,9 +33,15 @@ class _MyHomePageState extends State<PageIndicatorExample> {
         indicatorColor: Color(0xffa2e2e2),
         child: PageView(
           children: <Widget>[
-            Center(child: Text('Page one')),
-            Center(child: Text('Page two')),
-            Center(child: Text('Page three')),
+            Center(
+              child: Text('Page one'),
+            ),
+            Center(
+              child: Text('Page two'),
+            ),
+            Center(
+              child: Text('Page three'),
+            ),
           ],
           controller: controller,
         ),
